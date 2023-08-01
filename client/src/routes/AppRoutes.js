@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Home } from '../pages';
+import { Home, Login, Register } from '../pages';
 
 
 export default () => {
@@ -8,6 +8,8 @@ export default () => {
     return(
         <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/login' element={<Login />} />
+            <Route path="/register" element={<Register />} />
         </Routes>
     );
 };

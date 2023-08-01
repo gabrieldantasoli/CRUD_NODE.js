@@ -8,6 +8,7 @@ export default () => {
     return (
         <section className='home'>
             <p>home</p>
+            <input type="date" name="date" id="" />
         </section>
     )
 }
